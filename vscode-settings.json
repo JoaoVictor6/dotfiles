@@ -1,0 +1,48 @@
+{
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.iconTheme": "material-icon-theme",
+  "git.enableSmartCommit": true,
+  "editor.fontFamily": "Fira Code",
+  "terminal.integrated.fontFamily": "Meslo LG S for Powerline",
+  "terminal.integrated.fontWeight": "100",
+  "editor.fontLigatures": true,
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "workbench.startupEditor": "welcomePage",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.explorerKind": "external",
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\bash.exe",
+  "terminal.integrated.allowChords": false,
+  //linhas verticais
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+
+  "editor.accessibilitySupport": "on",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.format.enable": true,
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown"
+  ],
+  "files.eol": "\n"
+}
+
